@@ -9,7 +9,7 @@ public class Main {
 
         //Code vom Projekt entnommen
         System.out.println("Loading REST service...");
-        ResourceConfig rc = new ResourceConfig().packages("fh.technikum");
+        ResourceConfig rc = new ResourceConfig().packages("pavic.fh");
         HttpServer server = JdkHttpServerFactory.createHttpServer(URI.create("http://localhost:8080/"),rc);
         System.out.println("REST service loaded");
 
